@@ -107,13 +107,13 @@ a:focus{
 	cursor: pointer;
 }
 .content{
-	padding-top: 8%; /*16%*/
+	padding-top: 16%; /*16%*/
 }
 .header-text.btn{
 	border: 1px solid #ffffff;
 	border-radius: 0;
-	padding: 8px 8px; /*10px 30px*/
-	height: 100px; /*100*/
+	padding: 10px 30px; /*10px 30px*/
+	height: 150px; /*100*/
 }
 .header-text.btn:hover{
 	color: inherit;

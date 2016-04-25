@@ -436,8 +436,9 @@ a.btn.send-btn:hover{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll; /*fixed*/
 	text-align: center;
+
 }
 
 #clients .overlay{

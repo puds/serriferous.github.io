@@ -104,8 +104,8 @@ a:focus{
 .header-text.btn{
 	border: 1px solid #ffffff;
 	border-radius: 0;
-	padding: 10px 30px;
-	height: 100px;
+	padding: 8px 15px; /*10px 30px*/
+	height: 50px; /*100*/
 }
 .header-text.btn:hover{
 	color: inherit;

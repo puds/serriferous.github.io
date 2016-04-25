@@ -99,6 +99,19 @@ a:focus{
 	color: #c59a6d;
 	text-decoration: none;
 }
+
+#home2{
+	background: url(../img/pexels-photo-54276.jpeg);
+	background-size: cover;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: scroll; /*fixed*/
+	height: auto;
+	min-height: 500px; /*710*/	
+	padding-top: 60px;
+	color: #ffffff;
+}
+
 #home{
 	background: url(../img/pexels-photo-54276.jpeg);
 	background-size: cover;

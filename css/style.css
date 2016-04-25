@@ -302,6 +302,7 @@ a.down-btn span.fa.fa-angle-down {
 a.btn.go-to-btn{
 	text-transform: uppercase;
 	border: 1px solid #c59a6d;
+	background: #fff;
 	word-spacing: 2px;
 	padding: 7px 30px;
 	border-radius: 2px;

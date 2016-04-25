@@ -199,7 +199,7 @@ nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
 	left: 120px;
-	color: #c0c0c0;
+	color: #ddd;
 	cursor: pointer;
 	z-index: 1;
 }

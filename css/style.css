@@ -153,7 +153,7 @@ a:focus{
     100% { opacity:1; }
 }
 span.typed-cursor {
-	top: -1px; /*-5*/
+	top: 0px; /*-5*/
 	position: relative;
 }
 /*.header-text{

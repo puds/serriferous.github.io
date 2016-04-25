@@ -247,12 +247,13 @@ background-color: transparent;
 }
 
 .close:hover{
-	background: #c59a6d;
-	color: #ffffff;
+	background: #fff; /*c59a6d*/
+	color: #ddd; /*fff*/
 	opacity: 1;
 }
 .close{
 	background: #fff;
+	color: #C59A6D;
 	padding: 10px 12px;
 	opacity: 1;
 	transition: all 0.3s;

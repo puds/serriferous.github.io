@@ -72,6 +72,12 @@ h9 {
    /*date font*/
 }
 
+h10 {
+   font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
+	font-size: 15px;
+   /*date font*/
+}
+
 p{
 	font-weight: 400;
 }

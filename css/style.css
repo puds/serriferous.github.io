@@ -102,11 +102,10 @@ a:focus{
 #home{
 	background: url(../img/pexels-photo-54276.jpeg);
 	background-size: cover;
-	background-position: center;
+	background-position: absolute;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	width: 100%;
 	min-height: 500px; /*710*/	
 	padding-top: 60px;
 	color: #ffffff;

@@ -92,7 +92,7 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;	
+	min-height: 300px; /*710*/	
 	padding-top: 60px;
 	color: #ffffff;
 }

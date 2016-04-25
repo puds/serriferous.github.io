@@ -58,9 +58,17 @@ h7 {
 }
 
 h8 {
-   font-size: 10px;
+   font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
+   	font-weight: 700;
+	font-size: 46px;
+   /*type font*/
+}
+
+h8 {
    font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
    text-transform: uppercase;
+   	font-weight: 700;
+	font-size: 10px;
    /*date font*/
 }
 

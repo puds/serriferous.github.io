@@ -104,7 +104,7 @@ a:focus{
 	background-size: cover;
 	background-position: absolute;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll; /*fixed*/
 	height: auto;
 	min-height: 500px; /*710*/	
 	padding-top: 60px;

@@ -76,7 +76,14 @@ h10 {
    	font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
 	font-size: 20px;
 	color: #7c7c7c;
-   /*date font*/
+   /*about font*/
+}
+
+h11 {
+   	font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
+	font-size: 14px;
+	color: #7c7c7c;
+   /*collections font*/
 }
 
 p{

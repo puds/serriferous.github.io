@@ -442,6 +442,12 @@ input[type=submit] {
 	transition: all 0.5s;
 }
 
+input[type=submit]:hover {
+	background: transparent;
+	border: 1px solid #c59a6d;
+	color: #ffffff;
+}
+
 #clients {
 	background: url(../img/mountain-bw-morgins.jpeg);
 	background-size: cover;

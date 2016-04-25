@@ -112,7 +112,7 @@ a:focus{
 .header-text.btn{
 	border: 1px solid #ffffff;
 	border-radius: 0;
-	padding: 10px 30px; /*10px 30px*/
+	padding: 10px 10px; /*10px 30px*/
 	height: 86px; /*100*/
 }
 .header-text.btn:hover{
@@ -130,9 +130,9 @@ a:focus{
 }
 .typed-cursor {
 	opacity: 1;
-	padding: 5px 2px; /*10px 2px*/
+	padding: 10px 2px; /*10px 2px*/
 	background: #ffffff;
-	margin: 5px; /*10px */
+	margin: 10px; /*10px */
 	-webkit-animation: blink 0.5s linear infinite;
     -moz-animation: blink 0.5s linear infinite;
     animation: blink 0.5s linear infinite;

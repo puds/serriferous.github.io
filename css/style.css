@@ -132,7 +132,7 @@ a:focus{
 	opacity: 1;
 	padding: 5px 2px; /*10px 2px*/
 	background: #ffffff;
-	margin: 2px; /*10px */
+	margin: 20px; /*10px */
 	-webkit-animation: blink 0.5s linear infinite;
     -moz-animation: blink 0.5s linear infinite;
     animation: blink 0.5s linear infinite;
@@ -153,7 +153,7 @@ a:focus{
     100% { opacity:1; }
 }
 span.typed-cursor {
-	top: -10px; /*-5*/
+	top: -100px; /*-5*/
 	position: relative;
 }
 /*.header-text{

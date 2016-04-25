@@ -106,6 +106,7 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
+	width: 100%;
 	min-height: 500px; /*710*/	
 	padding-top: 60px;
 	color: #ffffff;

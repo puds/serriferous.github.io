@@ -175,8 +175,8 @@ z-index: 10;
 }
 .navmenu-default, 
 .navbar-default .navbar-offcanvas {
-	background-color: #1E2429;
-	border-color: #1E2429;
+	background-color: #fff;
+	border-color: #C59A6D;
 	border: 0;
 }
 .navmenu-default .navmenu-nav>li>a:hover, 
@@ -193,7 +193,7 @@ text-align: center;
 }
 .navmenu-default .navmenu-nav>li>a, 
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
-color: #ffffff;
+color: #565656;
 text-transform: uppercase;
 font-size: 12px;
 line-height: 30px;

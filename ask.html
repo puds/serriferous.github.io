@@ -88,20 +88,20 @@
                 <div class="col-md-8 col-md-offset-2">
                   
 
-
                   
-                    <form method="post" action="acknowledge.php" autocomplete="off">
+                    <form action="https://formspree.io/sharonko.sm@gmail.com"
+                    method="POST">
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="text" class="form-control" placeholder="Name" name="Name" id="Name">
+                                <input type="text" class="form-control" placeholder="Name" name="name">
                             </div>
                             <div class="col-md-12">
-                                <input type="text" class="form-control" placeholder="Contact (optional)" name="Contact" id="Contact">
+                                <input type="email" class="form-control" placeholder="Email" name="_replyto">
                             </div>
                         </div>
                         <textarea class="form-control" id="Message" rows="4" placeholder="The ask function is still not up sorry :-( in the meanwhile there's ask.fm/serriferous"></textarea>
                         <div class="text-right">
-                            <a href="" class="btn send-btn">Send</a>
+                            <a href="" class="btn send-btn"><input type="submit" value="Send" class="btn send-btn"></a>
                         </div>
                     </form>
                 </div>
@@ -109,42 +109,6 @@
         </div>
     </div>
     
-    
-    
-    <?php
-//if "email" variable is filled out, send email
-  if (isset($_REQUEST['email']))  {
-  
-  //Email information
-  $admin_email = "someone@example.com";
-  $email = $_REQUEST['email'];
-  $subject = $_REQUEST['subject'];
-  $comment = $_REQUEST['comment'];
-  
-  //send email
-  mail($admin_email, "$subject", $comment, "From:" . $email);
-  
-  //Email response
-  echo "Thank you for contacting us!";
-  }
-  
-  //if "email" variable is not filled out, display the form
-  else  {
-?>
-
- <form method="post">
-  Email: <input name="email" type="text" /><br />
-  Subject: <input name="subject" type="text" /><br />
-  Message:<br />
-  <textarea name="comment" rows="15" cols="40"></textarea><br />
-  <input type="submit" value="Submit" />
-  </form>
-  
-<?php
-  }
-?>
-
-
 
     <nav id="footer">
         <div class="container">

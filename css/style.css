@@ -295,7 +295,7 @@ a.down-btn span.fa.fa-angle-down {
 .space{ padding-top: 40px; }
 
 #cta{
-	background: #282f35;
+	background: #e3e3e3;
 	padding: 4% 0;
 }
 
@@ -604,7 +604,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 nav#footer{
-	background: #565656;
+	background: #e3e3e3;
 	padding: 40px 0;
 	color: #ffffff;
 	border-bottom: 5px solid #c59a6d;

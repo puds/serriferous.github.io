@@ -450,7 +450,8 @@ input[type=submit] {
 	background: #c59a6d;
 	color: #282f35;
 	padding: 15px 35px;
-	border-radius: 0;
+	border-radius: 2px;
+        border: #fff;
 	font-size: 12px;
 	color: #ffffff;
 	transition: all 0.5s;

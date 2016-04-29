@@ -20,14 +20,19 @@ title: Blog
             <div class="row">
                 <div class="col-md-4 col-md-offset-4">
                   
-                  <ul>
-  {% for blog in site.blog %}
+                  <div class="row">
+                            <div class="col-md-12">
+                                {% for blog in site.blog %}
     <li>
       <a href="{{ blog.url }}">{{ blog.title }}</a>
       {{ blog.excerpt }}
     </li>
   {% endfor %}
 </ul>
+                            </div>
+                  </div>
+                  <ul>
+  
 
                 </div>
             </div>

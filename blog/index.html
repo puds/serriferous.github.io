@@ -24,7 +24,7 @@ title: Blog
                             <div class="col-md-12">
                                     testing thumbnail
                                 <ul>
-                                {% for blog in site.blog %}
+                                {% for post in site.categories.blog %}
     <li>
       <a href="{{ blog.url }}">{{ blog.title }}</a>
       {{ blog.excerpt }}
@@ -32,14 +32,6 @@ title: Blog
   {% endfor %}
 </ul>
 
-{% if blog.img %}
-  <img class="caption__media" data-interchange="
-  {% for img in blog.img %}
-    [{{site.baseurl}}/img/{{img[1]}} ({{img[0]}})]
-    {% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-  ">
-{% endif %}
                             </div>
                   </div>
   

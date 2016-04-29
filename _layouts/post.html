@@ -20,7 +20,7 @@ layout: default
             
             <header
 {% if page.cover %}
-style="background-image: url({{ page.cover }});"
+style="background-image: {{ page.cover }};"
 {% endif %}
             {{ content }}
             

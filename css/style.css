@@ -89,8 +89,9 @@ h11 {
 }
 
 h12 {
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
    /*quotes font*/
 }
 

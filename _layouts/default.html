@@ -6,7 +6,12 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ page.category }}</title>
+    {% endif %}
+
     <meta name="description" content="sharon">
     <meta name="keywords" content="blog, personal, sharon, serriferous">
     <meta name="author" content="sharon, serriferous.github.io">

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div id="contact">
+        <div class="container">
+               
+           <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+           </nav>
+           
+         
+            <div class="section-title text-center">
+                <h7>{{ page.title }}</h7>
+                <hr>
+            </div>
+            
+            <div class="space"></div>
+            
+            <img src="{{ page.cover }}" style="height: 100%; width: 100%; object-fit: contain">
+            
+            <div class="space"></div>
+              <center>
+                <h13>{{ content }}</h13>
+              </center>
+            
+            <br><br>
+            <hr>
+            <div class="section-title text-center">
+                <h9><p class="meta">{{ page.date | date_to_string }}</p></h9>
+            </div>
+                </div>
+            </div>

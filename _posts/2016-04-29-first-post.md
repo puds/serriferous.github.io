@@ -7,6 +7,6 @@ cover: <img src="{{ site.baseurl }}/img/people2.jpg">
 cover_width: 520px
 ---
 
-<img src="../../../img/people2.jpg">
+<img src="../../img/people2.jpg">
 
 Testing

@@ -22,11 +22,10 @@ title: Quotes
 {% for quotes in site.categories.quotes reversed%}                    
                             <a href="{{ quotes.url }}">
                                 <div class="hover-text">
-                                        <h9>{{ quotes.date | date_to_string }}</h9>
-                                    <h7><p class="lead">{{ quotes.author }}</p></h7>
-                                    <div class="hline"></div>
                                 </div>
+                                <br>
                                 <h12><center>{{quotes.content}}</center></h12>
+                                <br>
                             </a>
                             <hr>
                 {% endfor %}

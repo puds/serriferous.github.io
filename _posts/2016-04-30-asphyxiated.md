@@ -10,7 +10,7 @@ cover: http://serriferous.github.io/img/water2.jpg
 <div class="row">
 <div class="col-md-12">
 <div align="right">
-  <b>4:49 AM</b>
+  <h15>4:49 AM</h15>
 </div><br>
 Can't seem to fall asleep. <br>
 Can't seem to stop feeling insecure. <br>

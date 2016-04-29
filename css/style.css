@@ -412,6 +412,11 @@ a.btn.go-to-btn:hover{
 	color: #c59a6d;
 }
 
+.feature-item .hover-bg{
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
 
 a.btn.read-more-btn{
 	text-transform: uppercase;

@@ -2,10 +2,27 @@
 layout: default
 title: Blog
 ---
-	<h1>{{ page.title }}</h1>
+
+<div id="contact">
+        <div class="container">
+               
+           <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+           </nav>
+           
+         
+            <div class="section-title text-center">
+                <h7>{{ page.title }}</h7>
+                <hr>
+            </div>
+            <div class="space"></div>
+            
 
 	  {% for blog in site.categories.blog %}
 	    <h3><li><span>{{ blog.date | date_to_string }}</span> » <a href="{{ blog.url }}" title="{{ blog.title }}">{{ blog.title }}</a></li></h3>
 	  {% endfor %}
 	</ul>
 	<p></p>
+            
+        </div>
+</div>

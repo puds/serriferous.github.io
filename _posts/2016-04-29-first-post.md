@@ -3,13 +3,9 @@ layout: post
 title: "First Post"
 date: 2016-04-29
 category: blog
+cover: /../../img/people2.jpg
+cover_width: 520px
 ---
-
-{% include image.html
-            img="/img/people2.jpg"
-            title="people"
-            caption="caption for image" %}
-
 
 
 Testing

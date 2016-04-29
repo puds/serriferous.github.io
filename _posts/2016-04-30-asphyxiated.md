@@ -9,6 +9,9 @@ cover: http://serriferous.github.io/img/water2.jpg
 <div class="col-md-8 col-md-offset-2">
 <div class="row">
 <div class="col-md-12">
+<div align="right">
+  <b>4:49 AM</b>
+</div><br>
 Can't seem to fall asleep. <br>
 Can't seem to stop feeling insecure. <br>
 Can't seem to understand why. <br>

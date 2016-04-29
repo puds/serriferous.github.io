@@ -20,25 +20,15 @@ title: Quotes
                     <div class="space"></div> 
                     
 {% for quotes in site.categories.quotes reversed%}                    
-<div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 nopadding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
                             <a href="{{ quotes.url }}">
                                 <div class="hover-text">
                                         <h9>{{ quotes.date | date_to_string }}</h9>
                                     <h7><p class="lead">{{ quotes.author }}</p></h7>
                                     <div class="hline"></div>
                                 </div>
-                                <span style="display: inline-block; vertical-align: middle; height: 200px"></span>
-                                <span style="display: inline-block; vertical-align: middle; "><h12><center>{{quotes.excerpt}}</center></h12></span>
-                                
-                                        
+                                <h12><center>{{quotes.content}}</center></h12>
                             </a>
-                        </div>
-                    </div>
-                </div>
+                            <hr>
                 {% endfor %}
                 </div>
                 </div>

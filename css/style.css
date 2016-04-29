@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 @import url(http://fonts.googleapis.com/css?family=Tangerine:300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,900,900italic);
 
 
 body, html{
@@ -99,6 +100,13 @@ h13 {
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
    /*blog font*/
+}
+
+h14 {
+	font-style: italic;
+	font-size: 150px;
+	font-family: 'Roboto', sans-serif;
+   /*big bold font*/
 }
 
 p{

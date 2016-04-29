@@ -17,13 +17,24 @@ title: Blog
             </div>
             <div class="space"></div>
             
+            {% for post in site.categories.blog %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+    <div>
+      <a href="{{ blog.url }}">{{ blog.title }}</a>
+  {% else %}
+      <a href="{{ blog.url }}">{{ blog.title }}</a>
+    </div>
+  {% endif %}
+{% endfor %}
 
+<!--
 	  {% for blog in site.categories.blog %}
 	    <h7><a href="{{ blog.url }}" title="{{ blog.title }}">{{ blog.title }}</a></h7><br>
 	    <h9>{{ blog.date | date_to_string }}</h9>
 	  {% endfor %}
 
 	<p></p>
-            
+-->            
         </div>
 </div>

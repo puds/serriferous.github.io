@@ -1,6 +1,6 @@
 ---
 layout: quotes
-title: "Second Post"
+title: ""
 date: 2016-04-29
 category: quotes
 ---

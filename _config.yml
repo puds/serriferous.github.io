@@ -1,2 +1,3 @@
 name: Inscrutable
 markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title

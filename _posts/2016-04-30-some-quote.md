@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: quotes
 title: "Second Post"
 date: 2016-04-29
 category: quotes

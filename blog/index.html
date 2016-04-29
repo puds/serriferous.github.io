@@ -23,14 +23,14 @@ title: Blog
                   <div class="row">
                             <div class="col-md-12">
                                     testing thumbnail
-                                <ul>
-                                {% for post in site.categories.blog %}
-    <li>
-      <a href="{{ blog.url }}">{{ blog.title }}</a>
-      {{ blog.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+                                    
+                                    <ul>
+                                            {% for blog in site.categories.blog %}
+                                                {{ blog.excerpt }}<br>
+  	                                        <h7><a href="{{ blog.url }}" title="{{ blog.title }}">{{ blog.title }}</a></h7><br>
+  	                                        <h9>{{ blog.date | date_to_string }}</h9>
+  	                                    {% endfor %}
+                                    </ul>
 
                             </div>
                   </div>

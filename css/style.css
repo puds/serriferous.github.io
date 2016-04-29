@@ -365,11 +365,10 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
-.portfolio-item .text{
+.portfolio-item .hover-text{
 	height: 200px;
 	overflow: hidden;
 	position: relative;
-	vertical-align: middle; 
   	text-align: center; 
 }
 

@@ -31,7 +31,12 @@ title: Quotes
                                     <h7><p class="lead">{{ quotes.title }}</p></h7>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="{{ quotes.cover }}" class="img-responsive" style="height: 100%; overflow: hidden;"> alt="..."/>
+                                {% if quotes.cover %}
+                                        <img src="{{ quotes.cover }}" class="img-responsive" style="height: 100%; overflow: hidden;"> alt="..."/>
+                                {% else %}
+                                        {{quotes.excerpt}}
+                                {% endif %}
+                                
                             </a>
                         </div>
                     </div>

@@ -12,7 +12,6 @@ body, html{
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
 }
 @media (min-width: 1200px){
 	.container {
@@ -371,6 +370,7 @@ a.btn.go-to-btn:hover{
 	overflow: hidden;
 	position: relative;
   	text-align: center; 
+  	margin: 0;
 }
 
 .hover-bg .hover-text {

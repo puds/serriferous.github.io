@@ -1,0 +1,11 @@
+---
+layout: default
+title: Quotes
+---
+	<h1>{{ page.title }}</h1>
+
+	  {% for quotes in site.categories.quotes %}
+	    <h3><li><span>{{ quotes.date | date_to_string }}</span> » <a href="{{ quotes.url }}" title="{{ quotes.title }}">{{ quotes.title }}</a></li></h3>
+	  {% endfor %}
+	</ul>
+	<p></p>

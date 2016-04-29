@@ -41,6 +41,8 @@ title: Blog
 </div>
 </div>
 
+<ul>
 {% for blog in site.categories.blog %} 
-{{ blog.title }}
+<li>{{ blog.title }}</li>
 {% endfor %}
+</ul>

@@ -32,7 +32,11 @@ title: All Posts
                                         <h9>{{ post.date | date_to_string }}</h9>
                                     <div class="hline"></div>
                                 </div>
+                                {% if post.cover %}
                                 <img src="{{ post.cover }}" class="img-responsive" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;"> alt="..."/>
+                                {% else %}
+                                <img src="https://trudymorgancole.files.wordpress.com/2007/08/quotes1.jpg" class="img-responsive" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;"> alt="..."/>
+                                {% endif %}
                             </a>
                         </div>
                     </div>

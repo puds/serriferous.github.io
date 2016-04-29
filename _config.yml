@@ -1,5 +1,12 @@
 name: Inscrutable
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
-paginate: 1
 baseurl: ""
+
+gems: [jekyll-paginate, jekyll-paginate-category]
+
+paginate: 1
+paginate_path: "page:num"
+
+category_dir: "categories"
+category_layout: "index.html"

@@ -18,6 +18,21 @@ title: Quotes
             
                     <div class="space"></div> 
                     <div class="space"></div> 
+                    
+{% if page.paginator %}
+{% assign paginator = page.paginator %}
+{% endif %}
+
+{% for post in paginator.posts %}
+<a href="{{ quotes.url }}">
+                                <div class="hover-text">
+                                </div>
+                                <br>
+                                <h12><center>{{quotes.content}}</center></h12>
+                                <br>
+                            </a>
+                            <hr>
+{% endfor %}
 
 {% for quotes in paginator.site.categories.quotes reversed%}                    
                             <a href="{{ quotes.url }}">

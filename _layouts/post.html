@@ -18,7 +18,10 @@ layout: default
             
             <div class="space"></div>
             
-            {{ page.cover }}
+            <header
+{% if page.cover %}
+style="background-image: url({{ page.cover }});"
+{% endif %}
             {{ content }}
             
                 </div>

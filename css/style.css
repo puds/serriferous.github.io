@@ -95,6 +95,12 @@ h12 {
    /*quotes font*/
 }
 
+h13 {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+   /*blog font*/
+}
+
 p{
 	font-weight: 400;
 }

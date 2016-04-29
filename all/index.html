@@ -1,0 +1,42 @@
+---
+layout: default
+title: All Posts
+---
+
+<div id="contact">
+        <div class="container">
+               
+           <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+           </nav>
+           
+         
+            <div class="section-title text-center">
+                <h7>{{ page.title }}</h7>
+                <hr>
+            </div>
+            
+                    <div class="space"></div> 
+                    <div class="space"></div> 
+                    
+{% for post in site.posts reversed%}                    
+<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 nopadding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="{{ post.url }}">
+                                <div class="hover-text">
+                                        <h9>{{ post.date | date_to_string }}</h9>
+                                    <div class="hline"></div>
+                                </div>
+                                <img src="{{ post.cover }}" class="img-responsive" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;"> alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+                </div>
+</div>
+</div>

@@ -365,7 +365,7 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
-.portfolio-item .hover-text{
+.portfolio-item .hover-bg{
 	height: 200px;
 	overflow: hidden;
 	position: relative;

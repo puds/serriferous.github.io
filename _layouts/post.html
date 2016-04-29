@@ -13,8 +13,9 @@ layout: default
             <div class="section-title text-center">
                 <h7>{{ page.title }}</h7>
                 <hr>
+                <h9><p class="meta">{{ page.date | date_to_string }}</p></h9>
             </div>
-            <h9><p class="meta">{{ page.date | date_to_string }}</p></h9>
+            
             <div class="space"></div>
             
             {{ page.cover }}

@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 @import url(http://fonts.googleapis.com/css?family=Tangerine:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
 
 body, html{
@@ -89,7 +90,7 @@ h11 {
 
 h12 {
 	font-size: 30px;
-	font-family: "Tangerine", Helvetica, Sans-serif;
+	font-family: 'Open Sans', sans-serif;
    /*quotes font*/
 }
 

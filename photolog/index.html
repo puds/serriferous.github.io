@@ -1,0 +1,43 @@
+---
+layout: default
+title: Photolog
+---
+
+<div id="contact">
+        <div class="container">
+               
+           <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+           </nav>
+           
+         
+            <div class="section-title text-center">
+                <h7>{{ page.title }}</h7>
+                <hr>
+            </div>
+            
+                    <div class="space"></div> 
+                    <div class="space"></div> 
+                    
+{% for photolog in site.categories.photolog reversed%}                    
+<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 nopadding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="{{ photolog.url }}">
+                                <div class="hover-text">
+                                        <h9>{{ photolog.date | date_to_string }}</h9>
+                                    <h7><p class="lead">{{ photolog.title }}</p></h7>
+                                    <div class="hline"></div>
+                                </div>
+                                <img src="{{ photolog.cover }}" class="img-responsive" style="height: 100%; overflow: hidden;"> alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+                </div>
+</div>
+</div>

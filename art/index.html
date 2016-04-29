@@ -2,10 +2,42 @@
 layout: default
 title: Art
 ---
-	<h1>{{ page.title }}</h1>
 
-	  {% for art in site.categories.art %}
-	    <h3><li><span>{{ art.date | date_to_string }}</span> » <a href="{{ art.url }}" title="{{ art.title }}">{{ art.title }}</a></li></h3>
-	  {% endfor %}
-	</ul>
-	<p></p>
+<div id="contact">
+        <div class="container">
+               
+           <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+           </nav>
+           
+         
+            <div class="section-title text-center">
+                <h7>{{ page.title }}</h7>
+                <hr>
+            </div>
+            
+                    <div class="space"></div> 
+                    <div class="space"></div> 
+                    
+{% for art in site.categories.art reversed%}                    
+<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 nopadding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="{{ art.url }}">
+                                <div class="hover-text">
+                                        <h9>{{ art.date | date_to_string }}</h9>
+                                    <h7><p class="lead">{{ art.title }}</p></h7>
+                                    <div class="hline"></div>
+                                </div>
+                                <img src="{{ art.cover }}" class="img-responsive" style="height: 100%; overflow: hidden;"> alt="..."/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                </div>
+                </div>
+</div>
+</div>

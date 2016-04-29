@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+@import url(http://fonts.googleapis.com/css?family=Tangerine":300);
 
 
 body, html{
@@ -84,6 +85,12 @@ h11 {
 	font-size: 18px;
 	color: #7c7c7c;
    /*collections font*/
+}
+
+h12 {
+	font-size: 20px;
+	font-family:"Tangerine", Georgia, Serif;
+   /*quotes font*/
 }
 
 p{

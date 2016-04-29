@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Asphyxiated"
-date: 2016-04-29
+date: 2016-04-30
 category: blog
 cover: http://serriferous.github.io/img/water2.jpg
 ---

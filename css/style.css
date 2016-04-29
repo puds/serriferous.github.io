@@ -369,6 +369,8 @@ a.btn.go-to-btn:hover{
 	height: 200px;
 	overflow: hidden;
 	position: relative;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .hover-bg .hover-text {

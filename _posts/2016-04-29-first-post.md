@@ -5,6 +5,6 @@ date: 2016-04-29
 category: blog
 ---
 
-![Image alt]({{ site.baseurl }}/img/people2.jpg "people")
+![Image alt]({{ site.baseurl }}/img/people2.jpg =250x "people")
 
 Testing

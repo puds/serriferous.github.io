@@ -4,7 +4,7 @@ title: "Second Post"
 date: 2016-04-29
 category: blog
 img:
-  large:  people2.jpg
+  feature:  people2.jpg
 ---
 
 

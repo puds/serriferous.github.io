@@ -134,6 +134,7 @@ button {
 button,
 select {
   text-transform: none;
+  outline: none;
 }
 button,
 html input[type="button"],
@@ -923,10 +924,12 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  outline: none;
 }
 a {
   color: #337ab7;
   text-decoration: none;
+  outline: none;
 }
 a:hover,
 a:focus {
@@ -3492,6 +3495,7 @@ tbody.collapse.in {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
+  outline: none;
 }
 .input-group {
   position: relative;
@@ -5474,6 +5478,7 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
+  outline: none;
 }
 .modal-open {
   overflow: hidden;

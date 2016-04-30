@@ -9,7 +9,7 @@ cover: http://serriferous.github.io/img/water2.jpg
 <div class="col-md-8 col-md-offset-2">
 <div class="row">
 <div class="col-md-12">
-<div align="right">
+<div align="center">
   <h15>4:49 AM</h15>
 </div><br>
 Can't seem to fall asleep. <br>

@@ -12,6 +12,7 @@ cover: http://serriferous.github.io/img/water2.jpg
 <div align="center">
   <h15>4:49 AM</h15>
 </div><br>
+<font size="5vw">4:49 AM</font><br><br>
 Can't seem to fall asleep. <br>
 Can't seem to stop feeling insecure. <br>
 Can't seem to understand why. <br>

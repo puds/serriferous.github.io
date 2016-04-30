@@ -13,8 +13,8 @@ cover: http://serriferous.github.io/img/water2.jpg
   <h15>4:49 AM</h15>
 <br><br>
 Can't seem to fall asleep. <br>
-Can't seem to stop feeling insecure. <br>
 Can't seem to understand why. <br>
+Can't seem to stop feeling insecure. <br>
 Can't seem to anticipate when it will pass. <br>
 Can't seem to remember life before this feeling. <br></div>
 </div>

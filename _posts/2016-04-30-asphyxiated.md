@@ -11,13 +11,12 @@ cover: http://serriferous.github.io/img/water2.jpg
 <div class="col-md-12">
 <div align="center">
   <h15>4:49 AM</h15>
-</div><br>
-<font size="5vw">4:49 AM</font><br><br>
+<br>
 Can't seem to fall asleep. <br>
 Can't seem to stop feeling insecure. <br>
 Can't seem to understand why. <br>
 Can't seem to anticipate when it will pass. <br>
-Can't seem to remember life before this feeling. <br>
+Can't seem to remember life before this feeling. <br></div>
 </div>
 </div>
 </div>            

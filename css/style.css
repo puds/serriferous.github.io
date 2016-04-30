@@ -773,3 +773,8 @@ nav#footer{
 	color: #ffffff;
 	transition: all 0.5s;
 }
+
+.button:hover{
+	background: #e3e3e3;
+	color: #676767;
+}

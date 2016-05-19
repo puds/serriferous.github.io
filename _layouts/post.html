@@ -30,6 +30,12 @@ layout: default
                 <h9><p class="meta">{{ page.date | date_to_string }}</p></h9>
             </div>
             
+            
+            <div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="row">
+<div class="col-md-12">
+        
             {% for post in site.categories.blog %}
         {% if post.url == page.url %}
             {% assign post_index0 = forloop.index0 %}
@@ -51,6 +57,11 @@ layout: default
         <span style="float:left;"><h13><a href="{{ prev_post }}">Previous Post</a></h13></span>
 </p> <br>
     {% endif %}
+    
+    </div>
+    </div>
+    </div>
+    </div>
             
                 </div>
             </div>

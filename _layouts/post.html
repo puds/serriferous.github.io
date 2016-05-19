@@ -30,9 +30,26 @@ layout: default
                 <h9><p class="meta">{{ page.date | date_to_string }}</p></h9>
             </div>
             
-            
-	<a href="{{previous.url}}">Older Post</a>
-	<a href="{{next.url}}">Newer Post</a>
+            {% for post in site.categories.blog %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+    {% for post in site.categories.blog %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post.url %}
+        {% endif %}
+    {% endfor %}
+    {% if next_post %}
+        <a href="{{ next_post }}">Next Post</a> <br>
+    {% endif %}
+    {% if prev_post %}
+        <a href="{{ prev_post }}">Previous Post</a> <br>
+    {% endif %}
             
                 </div>
             </div>
